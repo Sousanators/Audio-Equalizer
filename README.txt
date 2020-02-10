@@ -7,7 +7,9 @@
  audio spectrum to the user's liking, and provide an analog output for headphones.
  
  This repository will contain the files used to program the Digital Signal Processor (DSP) which will be controlling the data flow and processing of the audio.
+ 
  To start, we will be using a DSPIC33FJ128GP802; a 16-bit DSP from Microchip which has integrated analog peripherals for A/D and D/A conversion.
+ 
  We chose this chip because it comes in a 28-DIP package which will allow for an easier development of the equalization algorithms. At a later date, 
  when the algorithms are developed or at least understood completely, we will move to a DSP which has the correct serial communication peripherals
  to communicate with the A/D and D/A converters that we would like to use in the final solution. These A/D and D/A converters are:
