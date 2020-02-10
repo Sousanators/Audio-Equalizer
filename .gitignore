@@ -1,0 +1,2 @@
+#Exclude MPLABX project files from going to the repository
+nbproject/
