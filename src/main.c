@@ -10,5 +10,8 @@
 
 void main(void)
 {
+    while(1){
+        NOP(); //Testing git commands
+    }
 	return;
 }
